@@ -7,16 +7,16 @@ const trafficLight = (event) => {
     stopAutomatic();
     turnOn[event.target.id]();
 }
-const nexIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
+const nextIndex = () => colorIndex = colorIndex < 2 ? ++colorIndex : 0;
 
 const  changeColor = () => {
     const colors = ['red', 'yellow', 'green']
     const color = colors[colorIndex];
     turnOn[color]();
-    nexIndex();
+    nextIndex();
 }
 
-const topAutomatic = () => {
+const stopAutomatic = () => {
     clearInterval (intervalId);
 }
  const turnOn = {
