@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+    background: #d2d2c1 url("fundo.png");
+    font: 16px, Arial, Helvetica, Sans-serif;
+   
+}
+#Conteiner{
+    width: 900px;
+}
+#nav{
+    background: #c5c5b2;
+    padding: 18px;
+}
+a {
+    text-decoration: none;
+    color: #4d566a;
+    font-weight: bold;
+    padding: 5px;
+}
+.img-campanha{
+    border: 10px solid #c3c3ae;
+}
+.assunto{
+    background: #e8e8d9;
+    padding: 10px;
+}
+h2{
+    color: #828271;
+    font-size: 2rem;
+}
+.rodape{
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexões Culturais</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conexões Culturais</h1>
+        <nav>
+            <ul>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <div id="event-list">
+                <!-- Eventos serão carregados aqui -->
+            </div>
+        </section>
+        <section id="cursos">
+            <h2>Cursos</h2>
+            <div id="course-list">
+                <!-- Cursos serão carregados aqui -->
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu Email" required>
+                <textarea id="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
